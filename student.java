@@ -3,8 +3,8 @@ import java.time.Period;
 import java.time.format.DateTimeFormatter;
 
 public class student {
-    String name;
-    String dob;
+    public String name;
+    public String dob;
 
     public void displayName() {
         System.out.println("Student Name: " + name);
@@ -20,9 +20,10 @@ public class student {
     }
     
     public static void main(String[] args) {
-        student s = new student();
+        studentcourseinfo s = new studentcourseinfo();
         s.name = "Aishwarya Koppad";
         s.displayName();
         s.displayAge("03-10-2003");
+        s.displayStudentMarks();
 }
 }
