@@ -25,5 +25,6 @@ public class student {
         s.displayName();
         s.displayAge("03-10-2003");
         s.displayStudentMarks();
+        s.totalStudentMarks();
 }
 }
